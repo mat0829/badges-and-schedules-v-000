@@ -5,7 +5,7 @@ def badge_maker(name)
 end
 
 def batch_badge_creator(attendees)
-  brothers = ["Tom", "Tim", "Jim"]
+  attendees = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
   count = 0
   while count <= brothers.length-1
     puts "Stop hitting yourself #{brothers[count]}!"
