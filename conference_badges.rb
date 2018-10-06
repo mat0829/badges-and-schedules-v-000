@@ -5,8 +5,10 @@ def badge_maker(name)
 end
 
 def batch_badge_creator(attendees)
-  attendees = ["Edsger, Ada, Charles, Alan, Grace, Linus, Matz"]
-  attendees.each |attendee|
-    "Hello, my name is |attendee|."
-  end  
+  brothers = ["Tom", "Tim", "Jim"]
+  count = 0
+  while count <= brothers.length-1
+    puts "Stop hitting yourself #{brothers[count]}!"
+    count += 1
+  end
 end
